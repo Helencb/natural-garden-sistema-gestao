@@ -65,7 +65,7 @@ cd natural-garden-sistema-gestao
 Copie o arquivo de exemplo e preencha com seus dados locais:
 
 ```bash
-cp .env.example .env
+cp ..env.example .env
 ```
 
 ### 3. Banco de dados
