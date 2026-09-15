@@ -1,0 +1,51 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# ===== Backend (Java / Spring Boot / Maven) =====
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/*.class
+backend/HELP.md
+
+# Gradle (caso use no lugar de Maven)
+backend/.gradle/
+backend/build/
+
+# ===== Frontend (React / Node) =====
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# ===== Variáveis de ambiente e segredos =====
+.env
+*.env
+!.env.example
+
+# ===== IDEs e editores =====
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+
+# ===== Sistema operacional =====
+Thumbs.db
+desktop.ini
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Banco de dados local =====
+*.sqlite
+*.db
